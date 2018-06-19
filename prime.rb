@@ -4,7 +4,7 @@ def prime?(num)
   elsif
     (2..(num - 1)).each do |i|
     (num % i) == 0
-    
+      if
   return false
   else
     true

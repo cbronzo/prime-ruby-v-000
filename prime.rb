@@ -9,6 +9,6 @@ def prime?(num)
       end
     end
   else
-    true
+    return true
   end
 end

@@ -6,9 +6,9 @@ def prime?(num)
     (num % i) == 0
       if num % i == 0
 +         return false
-      
+      end
+    end
   else
     true
-  end
   end
 end
